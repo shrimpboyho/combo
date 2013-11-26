@@ -5,9 +5,12 @@
 #include "combo.h"
 #include "std_lib_facilities.h"
 
-
-int _tmain(int argc, _TCHAR* argv[])
+/*
+void combo::combine(vector<int> first, vector<int> second)
 {
-	return 0;
-}
-
+	for(size_t i = 0 ; i < second.size() ; i++){
+		
+		first.push_back(second[i]);
+		
+	}
+}*/
