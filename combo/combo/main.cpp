@@ -1,6 +1,14 @@
 #include "stdafx.h"
 #include "std_lib_facilities.h"
-#include "combo.h"
+//#include "combo.h"
+
+void combine(vector<int> first, vector<int> second){
+	for(size_t i = 0 ; i < second.size() ; i++){
+
+		first.push_back(second[i]);
+
+	}
+}
 
 int main(){
 
@@ -16,10 +24,11 @@ int main(){
 	goodbye[0] = 3;
 	goodbye[1] = 9;
 
-	combo::combine(hello, goodbye);
+	combine(hello, goodbye);
 
 	cout << hello[2];
 
 	keep_window_open();
 
+	return 0;
 }
