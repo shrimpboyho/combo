@@ -2,29 +2,23 @@
 #include "std_lib_facilities.h"
 #include "combo.h"
 
-void combine(vector<int>& first, vector<int>& second){
-	for(size_t i = 1 ; i < ( second.size() - 1 ) ; i++){
 
-		first.push_back(second[i]);
-
-	}
-}
 
 int main(){
 
 	cout << "Hello world!" << endl;
 
-	vector<int> hello;
+	int hello [4];
 
-	hello[1] = 1;
-	hello[2] = 16;
+	hello[0] = 1;
+	hello[1] = 16;
 
-	vector<int> goodbye;
+	int goodbye [2];
 
-	goodbye[1] = 3;
-	goodbye[2] = 9;
+	goodbye[0] = 3;
+	goodbye[1] = 9;
 
-	combine(hello, goodbye);
+	combo::combine(hello, goodbye);
 
 	cout << hello[3];
 
