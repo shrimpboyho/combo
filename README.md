@@ -1,4 +1,4 @@
 combo
 =====
 
-Combine C++ vectors in various useful ways
+Handle C++ arrays in various useful ways
