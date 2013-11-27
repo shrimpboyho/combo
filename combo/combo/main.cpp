@@ -1,9 +1,9 @@
 #include "stdafx.h"
 #include "std_lib_facilities.h"
-//#include "combo.h"
+#include "combo.h"
 
-void combine(vector<int> first, vector<int> second){
-	for(size_t i = 0 ; i < second.size() ; i++){
+void combine(vector<int>& first, vector<int>& second){
+	for(size_t i = 1 ; i < ( second.size() - 1 ) ; i++){
 
 		first.push_back(second[i]);
 
@@ -16,17 +16,17 @@ int main(){
 
 	vector<int> hello;
 
-	hello[0] = 1;
-	hello[1] = 16;
+	hello[1] = 1;
+	hello[2] = 16;
 
 	vector<int> goodbye;
 
-	goodbye[0] = 3;
-	goodbye[1] = 9;
+	goodbye[1] = 3;
+	goodbye[2] = 9;
 
 	combine(hello, goodbye);
 
-	cout << hello[2];
+	cout << hello[3];
 
 	keep_window_open();
 
