@@ -18,7 +18,9 @@ int main(){
 	goodbye[0] = 3;
 	goodbye[1] = 9;
 
-	combo::combine(hello, goodbye);
+	combo objectification;
+
+	objectification.combine(hello, goodbye);
 
 	cout << hello[3];
 
