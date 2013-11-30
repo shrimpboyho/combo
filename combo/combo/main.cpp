@@ -22,7 +22,7 @@ int main(){
 
 	objectification.concat(hello, goodbye);
 
-	cout << hello[3];
+	cout << concat[3];
 
 	keep_window_open();
 
