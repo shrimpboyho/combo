@@ -5,6 +5,6 @@ class combo
 {
 public:
 
-	void combine(int first [], int second []);
+	void concat(int first [], int second []);
 
 }

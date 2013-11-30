@@ -5,7 +5,7 @@
 #include "combo.h"
 #include "std_lib_facilities.h"
 
-void combo::combine(int first [], int second []){
+void combo::concat(int first [], int second []){
 	int sizeFirst = sizeof(first);
 	int sizeSecond = sizeof(second);
 

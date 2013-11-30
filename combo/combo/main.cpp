@@ -20,7 +20,7 @@ int main(){
 
 	combo objectification;
 
-	objectification.combine(hello, goodbye);
+	objectification.concat(hello, goodbye);
 
 	cout << hello[3];
 
