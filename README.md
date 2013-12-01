@@ -8,7 +8,7 @@ To install, simply clone the repository using `git clone https://github.com/dpwi
 ####Implementation
 
 The `concat()` method contains the essence of combo.  Use this method with two or more arrays to concatenate them.  `concat()` creates an array with the contents of each array you fed into it called `concat` so you don't need to worry about allocating extra space in any of the arrays you feed it.
-```
+```c
   int first [2];
   
   first[0] = 15;
